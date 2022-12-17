@@ -21,7 +21,20 @@ namespace ConsoleApp
                 return;
             }
             // Your code here
-           
+            Calculator<int> calculator = new Calculator<int>();
+
+            int result1 = calculator.Add(1, 2);
+            Console.WriteLine(result1); // Outputs 3
+
+            int result2 = calculator.Subtract(4, 2);
+            Console.WriteLine(result2); // Outputs 2
+
+            int result3 = calculator.Multiply(3, 2);
+            Console.WriteLine(result3); // Outputs 6
+
+            int result4 = calculator.Divide(8, 2);
+            Console.WriteLine(result4); // Outputs 4
+
         }
     }
 }
